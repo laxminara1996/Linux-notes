@@ -1,0 +1,47 @@
+whoami-->dispaly username
+pwd-->present wokring directory display
+cd-->change directory
+mkdir-->create new direcotry
+rmdir-->remove empty directory if you are having any files in directory delete those first
+ls --> Listing those files
+ls -l --> Listing alphabetical order
+ls -lr --> listing reverse order 
+ls -ltr -->display reverse order based on time
+ls -lt --> display timebased 
+cat --> create/update/display
+
+cat> -->check the file is exist or not then create new file then ask the enter data
+
+cat file1 file2>filename --> merge two files data to one data . cp command is copy only from one file to another file.
+cat >> -->is used to update the file without deleting old data
+cat filename --> display data available in file and read data from top to bottom
+
+tac --> read file from bottom to top
+rm --> remove file
+mv --> move file from one directory to another directory
+cp --> copy data from one file to another file
+wc --> word count ( lines,words,characters)
+ls -l directoryname --> it is used to diaply inner directory data.
+rm -r dirName --> remove the directory data first then delete  directory.
+head --> read data first 10 lines default
+tail --> read data last 10lines default
+head/tail -n 13 filename --> display required number of lines and last required number of lines
+grep(global regular expression printer) grep 'particular word' filename (grep 'linux' data.txt)--> display lines matching with the given keyword.
+grep -i 'linux' data.txt --> ignore case sensitive and display the matched lines with that keyword.
+vi filename --> editor mode edit the particular file , it will be on readable mode
+i --> then changed to editable mode(insert mode)
+press esc and :wq
+esc :wq -->write and quit(save and quit)
+esc :q! -->   changes not affeted or not save(without saving and quit)
+chmod-->change file permission
+chown --> change files ownership
+
+
+
+
+
+
+
+
+
+
